@@ -1,0 +1,68 @@
+:root{
+  --bg:#fbfaf7; --ink:#1e2321; --muted:#5c655f; --accent:#2f6b4f;
+  --line:#e4e2da; --card:#ffffff; --max:820px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:"Iowan Old Style","Palatino Linotype",Georgia,serif;
+  line-height:1.65; -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3{font-family:"Iowan Old Style",Georgia,serif; letter-spacing:.2px; font-weight:600}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:var(--max); margin:0 auto; padding:0 24px}
+
+/* bio motif backgrounds */
+.bio-bg{
+  position:fixed; inset:0; z-index:-1; opacity:.06; pointer-events:none;
+}
+
+nav.top{
+  position:sticky; top:0; background:rgba(251,250,247,.85); backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--line); z-index:10;
+}
+nav.top .wrap{display:flex; justify-content:space-between; align-items:center; padding:14px 24px; font-family:sans-serif}
+nav.top .brand{font-weight:700; font-family:Georgia,serif}
+nav.top .links a{margin-left:18px; font-size:.92rem; color:var(--muted)}
+nav.top .links a.active{color:var(--accent); font-weight:600}
+
+header.hero{padding:70px 0 40px; text-align:center; position:relative}
+header.hero img.avatar{
+  width:132px; height:132px; border-radius:50%; object-fit:cover;
+  border:3px solid var(--card); box-shadow:0 4px 18px rgba(0,0,0,.08); margin-bottom:20px;
+}
+header.hero h1{font-size:2.1rem; margin:0 0 6px}
+header.hero p.tag{color:var(--muted); font-size:1.05rem; margin:0 0 18px; font-family:sans-serif}
+.contact-row{display:flex; gap:16px; justify-content:center; flex-wrap:wrap; font-family:sans-serif; font-size:.92rem}
+.contact-row a{color:var(--ink); border-bottom:1px solid var(--line); padding-bottom:1px}
+
+.btn{
+  display:inline-block; padding:10px 20px; border:1px solid var(--accent); border-radius:30px;
+  color:var(--accent); font-family:sans-serif; font-size:.9rem; margin-top:20px;
+}
+.btn:hover{background:var(--accent); color:#fff; text-decoration:none}
+
+section{padding:38px 0; border-top:1px solid var(--line)}
+section h2{font-size:1.3rem; text-transform:uppercase; letter-spacing:1.5px; color:var(--accent); font-family:sans-serif; margin-bottom:22px}
+
+.skills-list{display:flex; flex-wrap:wrap; gap:10px; padding:0; list-style:none; margin:0; font-family:sans-serif}
+.skills-list li{background:var(--card); border:1px solid var(--line); padding:6px 14px; border-radius:20px; font-size:.85rem}
+
+.entry{margin-bottom:26px}
+.entry-head{display:flex; justify-content:space-between; flex-wrap:wrap; gap:6px; font-family:sans-serif}
+.entry-head .role{font-weight:700}
+.entry-head .period{color:var(--muted); font-size:.85rem}
+.entry .org{color:var(--accent); font-size:.92rem; margin:2px 0 8px; font-family:sans-serif}
+
+.pub-list{list-style:none; padding:0; margin:0}
+.pub-list li{padding:12px 0; border-bottom:1px dashed var(--line)}
+.pub-list .venue{color:var(--muted); font-size:.85rem; font-family:sans-serif}
+
+footer{text-align:center; padding:40px 0 60px; color:var(--muted); font-size:.85rem; font-family:sans-serif}
+
+@media(max-width:600px){
+  nav.top .links a{margin-left:10px; font-size:.82rem}
+  header.hero h1{font-size:1.6rem}
+}
