@@ -84,7 +84,7 @@
     ]
   },
 
-  "about": "A highly motivated Bioinformatics graduate with hands-on experience in computational biology and software development. Proficient in core NGS data analysis, including sequence alignment and differential gene expression, with practical knowledge of tools such as HISAT, Samtools, and IGV. Possesses a strong foundation in bioinformatics algorithms with a strong interest in solving complex biological problems. Eager to contribute to a dynamic team and further develop expertise as a bioinformatician.",
+  "about": "A highly motivated Bioinformatics graduate with hands-on experience in computational biology and software development. Proficient in core biological data analysis, including sequence alignment and differential gene expression, with practical knowledge of tools such as HISAT, Samtools, and IGV. Possesses a strong foundation in bioinformatics algorithms with a strong interest in solving complex problems. Eager to contribute to a dynamic team and further develop expertise as a bioinformatician.",
 
   "skills": [
     "Python",
