@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "favicon": "favicon",
+    "siteBrand": "A. Zadebrahimi",
+    "footerText": "Built with Claude AI & ChatGPT.",
+    "pageTitles": {
+      "industry": "A. Zadebrahimi — Industry Résumé",
+      "phd": "A. Zadebrahimi — Academic Profile"
+    }
+  },
+
+  "nav": {
+    "industryLabel": "Industry",
+    "phdLabel": "Academic"
+  },
+
+  "labels": {
+    "downloadCv": "Download CV (PDF)",
+    "sectionTitles": {
+      "about": "Professional Summary",
+      "skills": "Skills",
+      "experience": "Work Experience",
+      "education": "Education",
+      "research": "Research Experience",
+      "publications": "Publications",
+      "projects": "Selected Projects",
+      "contact": "Contact",
+      "certifications": "Certifications"
+    },
+    "contactIntro": "Reach out at",
+    "contactOr": "or connect via",
+    "contactLinkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "linkedinLabel": "LinkedIn",
+    "scholarLabel": "Scholar"
+  },
+
+  "profile": {
+    "name": "Arya Zadebrahimi",
+    "title": "Bioinformatics · GNNs · Synthetic Biology",
+    "email": "aryazady [at] gmail [dot] com",
+    "location": "Tehran, Iran",
+    "github": "https://github.com/aryazady",
+    "linkedin": "https://linkedin.com/in/arya-z",
+    "scholar": "https://scholar.google.com/citations?user=xxxx",
+    "photo": "img/profile.jpg",
+    "cv": "files/CV.pdf"
+  },
+
+  "sections": {
+    "about": true,
+    "skills": true,
+    "experience": true,
+    "research": true,
+    "publications": false,
+    "education": true,
+    "projects": true,
+    "contact": true,
+    "certifications": true
+  },
+
+  "viewOrder": {
+    "industry": [
+      "about",
+      "experience",
+      "skills",
+      "education",
+      "projects",
+      "certifications",
+      "research",
+      "publications",
+      "contact"
+    ],
+    "phd": [
+      "about",
+      "education",
+      "research",
+      "publications",
+      "projects",
+      "certifications",
+      "skills",
+      "experience",
+      "contact"
+    ]
+  },
+
+  "about": "A highly motivated Bioinformatics graduate with hands-on experience in computational biology and software development. Proficient in core NGS data analysis, including sequence alignment and differential gene expression, with practical knowledge of tools such as HISAT, Samtools, and IGV. Possesses a strong foundation in bioinformatics algorithms with a strong interest in solving complex biological problems. Eager to contribute to a dynamic team and further develop expertise as a bioinformatician.",
+
+  "skills": [
+    "Python",
+    "PyTorch",
+    "PyTorch Geometric",
+    "GNNs",
+    "Synthetic Biology",
+    "Julia",
+    "CellProfiler",
+    "Constrained Optimization",
+    "Visual Molecular Dynamics",
+    "Metabolic Networks",
+    "Gene Expression Analysis",
+    "R / Limma | Bioconductor",
+    "Docker",
+    "Node.Js",
+    "ReactJS",
+    "Java",
+    "Android"
+  ],
+
+  "experience": [
+    {
+      "role": "Educational Intern",
+      "org": "Iran University of Medical Sciences",
+      "period": "2 weeks",
+      "desc": "Completed hands-on training in molecular biology techniques, including cell lysis and DNA extraction, PCR-based detection of specific DNA sequences, cell culture, and microscopic cell counting."
+    },
+    {
+      "role": "Android Developer",
+      "org": "Nobaar",
+      "period": "2018",
+      "desc": "Developed dedicated Android (Java) applications for Nobaar's customers and company drivers. Led the design and architecture of the application APIs, collaborating with the backend development team on their implementation."
+    },
+    {
+      "role": "Junior Android Developer",
+      "org": "Mibarim",
+      "period": "2017 — 2018",
+      "desc": "Developed Android (Java) applications for Mibarim, including two applications supporting its ridesharing services and a dedicated app for comparing transportation options across ridesharing platforms."
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Master in Bioinformatics",
+      "org": "Sharif University of Technology",
+      "period": "2021 — 2024",
+      "desc": "Conducted interdisciplinary research at the intersection of metabolic engineering, synthetic biology, bioinformatics, and machine learning. Developed a computational framework for synthetic microbial community design and explored Graph Neural Networks for metabolic flux prediction by leveraging the topology of genome-scale metabolic networks. Gained hands-on experience with genome-scale metabolic modeling, sequence analysis (HISAT2, FASTA/FASTQ, SAMtools, BCFtools), RNA differential expression analysis, and protein structure analysis. Complemented research with advanced computer science coursework and multiple teaching assistantships, strengthening skills in computational problem-solving, research, and academic collaboration."
+    },
+    {
+      "degree": "B.S. in Software Engineering",
+      "org": "Azad University",
+      "period": "2015 — 2020",
+      "desc": "Focused on software development with an emphasis on Android application development using Java, including the development of mobile applications and games. Designed user interfaces using HTML, CSS, and JavaScript, and developed open-source peer-to-peer messaging software using Bluetooth Low Energy (BLE), supporting both direct messaging and network-wide broadcasting in a decentralized architecture where each device operated as both a client and a server. Gained practical industry experience through Android developer at two companies, contributing to the design and development of production mobile applications."
+    }
+  ],
+
+  "research": [
+    {
+      "title": "Synthetic auxotrophic community design with maximum growth rate",
+      "desc": "Developed a constrained optimization model, extending SteadyCom, to design auxotrophic microbial communities of any size with maximum growth rate. The model enforced modular robustness by requiring each member to produce a unique metabolite essential for the community's survival. Implementation was ultimately limited by the complexity of a constraint requiring a nested optimization."
+    },
+    {
+      "title": "Increase by-product yield using a synthetic community",
+      "desc": "Developed a constrained optimization model, extending SteadyCom, to identify the fittest microbial community capable of maximizing any desired by-product yield. The model incorporated additional constraints to screen across microorganisms and select optimal members. Implementation was ultimately limited by the high computational cost when applied to large metabolic networks."
+    },
+    {
+      "title": "Organism flux prediction using Graph neural networks",
+      "desc": "Developed a novel deep learning approach to predict metabolic flux, dramatically reducing computational cost compared to traditional methods. Represented each microorganism as a large disconnected graph composed of several small metabolic networks. Achieved a Root Mean Square Error of 4 against current gold standard data."
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "",
+      "venue": "Journal, Year",
+      "link": ""
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Microarray gene expression analysis",
+      "desc": "Analysis of microarray gene expression data to identify genes involved in AML (Acute Myeloid Leukemia).",
+      "link": "https://github.com/aryazady/projects-coding-experiences/tree/main/Microarray%20Gene%20Expression%20-%20AML%20Involved%20Genes"
+    },
+    {
+      "name": "Structural analysis of Fruquintinib",
+      "desc": "Docking and optimizing the conformation of the Fruquintinib inhibitor molecule.",
+      "link": "https://github.com/aryazady/projects-coding-experiences/tree/main/Fruquintinib%20Docking%20and%20Configuration%20Optimization"
+    },
+    {
+      "name": "scRNA-seq analysis",
+      "desc": "Pipeline for single-cell RNA sequencing clustering and analysis.",
+      "link": "https://github.com/aryazady/projects-coding-experiences/blob/main/Machine%20Learning/scRNA_seq_analysis_pipeline.ipynb"
+    },
+    {
+      "name": "Financial market price prediction",
+      "desc": "A transformer-based model for predicting the next candle based on a window of previous candles.",
+      "link": "https://github.com/aryazady/projects-coding-experiences/tree/main/Natural%20Language%20Processing/Financial%20Market%20Prediction"
+    },
+    {
+      "name": "Further Projects",
+      "desc": "Additional projects are available in this repository.",
+      "link": "https://github.com/aryazady/projects-coding-experiences"
+    }
+  ],
+
+  "certifications": [
+    { "degree": "Official English Test", "org": "TOEFL", "desc": "Score 104" }
+  ]
+}
